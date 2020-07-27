@@ -1,0 +1,36 @@
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Space Mono', monospace;/*incl backup fonts*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BioRhyme', serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+/* Nav */
+
+/* Hero section */
+
+/* Main */
+
+/* Index */
+
+/* Marketing */
+
+/* About */
+
+/* Footer */
