@@ -108,6 +108,30 @@ header a:hover{
 
 /* Marketing */
 
+.marketing .hero {
+    padding: 2%;
+}
+
+.marketing .main {
+    flex-direction: column;
+}
+
+.marketing .main div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.marketing .main div.alternate { /*Reverse this row: image last.*/
+    flex-direction: row-reverse;
+}
+.marketing .main img {
+    width: 25%;
+}
+
+.marketing .main h2 {
+    width: 55%;
+    margin: 0 1%;
+}
 /* About */
 
 /* Footer */
