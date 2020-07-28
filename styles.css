@@ -1,0 +1,169 @@
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Space Mono', monospace;/*incl backup fonts*/
+}
+
+* {
+    /* border: 1px solid black; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BioRhyme', serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+header {
+    background-color: #16302B;
+    color: #ffffff;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .title {
+    /* font-size: 2.5rem; */
+    /* color: red; */
+    /* text-shadow: .5px .5px #DBF9F0; */
+    /* font-weight: bold; */
+}
+
+header div {
+    width: 20%;
+}
+
+header nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    color: #ffffff;
+}
+
+header a:hover{ /*all the classy bits here*/
+
+}
+/* Nav */
+
+/* .container */
+
+.container {
+    width: 80%;
+    margin: 0 auto 2% auto;
+}
+
+/* Hero section */
+
+.hero {
+    background-color: #DBF9F0;
+    display: flex;
+    flex-direction: row;
+    padding: 6%;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding: 2%;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main div {
+    /* text-align: center; */
+    width: 30%;
+    margin-top: 2%;
+}
+.main img {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+.main p {
+    /* text-align: left; */
+}
+
+/* Index */
+
+/* Marketing */
+
+.marketing .hero {
+    padding: 2%;
+}
+
+.marketing .main {
+    flex-direction: column;
+}
+
+.marketing .main div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.marketing .main div.alternate { /*Reverse this row: image last.*/
+    flex-direction: row-reverse;
+}
+.marketing .main img {
+    width: 25%;
+}
+
+.marketing .main h2 {
+    width: 55%;
+    margin: 0 1%;
+}
+/* About */
+
+.about .hero {
+    padding: 2%;
+}
+
+.about .hero aside { /*fix me*/
+    width: 150%;
+}
+
+.about .main {
+    flex-direction: column;
+}
+
+.about .main div {
+    width: 100%;
+}
+
+.about .main img {
+    width: 30%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #16302B;
+    color: #ffffff;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer a {
+    color: #ffffff;
+}
