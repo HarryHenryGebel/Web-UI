@@ -3,10 +3,15 @@ html {
     font-size: 62.5%;
 }
 
+
 body {
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Space Mono', monospace;/*incl backup fonts*/
+}
+
+* {
+    /* border: 1px solid black; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,15 +22,87 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* Header */
+header {
+    background-color: #16302B;
+    color: #ffffff;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+header .title {
+    /* font-size: 2.5rem; */
+    /* color: red; */
+    /* text-shadow: .5px .5px #DBF9F0; */
+    /* font-weight: bold; */
+}
+
+header div {
+    width: 20%;
+}
+
+header nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    color: #ffffff;
+}
+
+header a:hover{
+
+}
 /* Nav */
+
+/* .container */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* Hero section */
 
+.hero {
+    background-color: #DBF9F0;
+    padding: 6%;
+    display: flex;
+    flex-direction: row;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding: 2%;
+}
+
 /* Main */
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main div {
+    /* text-align: center; */
+    width: 30%;
+    margin-top: 2%;
+}
+.main img {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+.main p {
+    /* text-align: left; */
+}
 
 /* Index */
 
@@ -34,3 +111,12 @@ a {
 /* About */
 
 /* Footer */
+
+footer {
+    background-color: #16302B;
+    color: #ffffff;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
