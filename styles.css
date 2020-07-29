@@ -227,7 +227,7 @@ CSS Breakpoints
 
 /* for tablets ==========================*/
 @media (max-width: 1200px) {
-/* header */
+/* Header */
     header div {
         width: 30%;
     }
@@ -309,7 +309,48 @@ CSS Breakpoints
 
 }
 
-/* For phones ===========================*/
+/* for cellphones ===========================*/
 @media (max-width: 600px) {
+/* Header */
+    header div.title {
+        display: none;
+    }
+    header div {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    header a {
+        padding: 5% 2%;
+        /* margin: 0; */
+    }
+/* Container */
+    .container {
+        width: 100%;
+    }
+/* Hero */
+        .hero h1, .hero h2 {
+            margin: auto 0 auto auto;
+        }
+    .hero {
+        text-align: right;
+        margin: 0 3%;
+    }
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+/* Main */
+    .main div, main div.last{
+        width: 92%;
+    }
+    .main div.last img{
+        width: 100%
+    }
+}
+/* for odd things even smaller than an iphone 5/SE ===========================*/
+@media (max-width: 299px) {
 
 }
