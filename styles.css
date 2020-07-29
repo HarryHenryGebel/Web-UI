@@ -222,7 +222,9 @@ CSS Breakpoints
 
 /* for extra wide desktops ==============*/
 @media (min-width: 1800px) {
-
+/*
+-max <p> width, diff layout, etc
+*/
 }
 
 /* for tablets ==========================*/
@@ -243,34 +245,26 @@ CSS Breakpoints
     .hero {
         flex-direction: column;
     }
-    .hero h1 {/*unchanged, to delete later*/
+    .hero h1 {
         font-size: 6rem;
-        /* font-weight: bold; */
         margin: 0 auto 0 0;
     }
     .hero h2 {
         font-size: 2.5rem;
-        /* padding: 2%; */
         margin: 0 0 0 auto;
     }
     .marketing .hero h1 {
         font-size: 2.5rem;
-        /* padding: 2%; */
     }
     .marketing .hero h2 {
         font-size: 6rem;
-        /* font-weight: bold; */
     }
     .about .hero h1 {
         width: 96%;
         font-size: 2rem;
-        /* padding: 2%; */
     }
     .about .hero h2 {
-        /* margin: 0; */
-        /* padding: 0 auto; */
         font-size: 5rem;
-        /* font-weight: bold; */
         margin: 0 0 0 auto;
     }
 /* Main */
@@ -282,11 +276,9 @@ CSS Breakpoints
     }
     .main div.last {
         width: 94%;
-        /* display: flex; */
     }
     .main div.last img {
         width:45%;
-        /* margin: 0 auto; */
     }
     .marketing .main .article {
         flex-direction: column;
@@ -329,25 +321,32 @@ CSS Breakpoints
         width: 100%;
     }
 /* Hero */
-        .hero h1, .hero h2 {
-            margin: auto 0 auto auto;
-        }
+    .hero h1, .hero h2 {
+        margin: auto 0 auto auto;
+    }
     .hero {
         text-align: right;
         margin: 0 3%;
     }
-    .hero h1 {
+    .hero h1, .marketing .hero h2 {
         font-size: 4.5rem;
     }
-    .hero h2 {
+    .hero h2, .marketing .hero h1 {
         font-size: 2rem;
     }
 /* Main */
-    .main div, main div.last{
+    .main div, .main div.last {
         width: 92%;
+    }
+    .marketing .main .article {
+        width: 92%;
+        margin: 5% auto 0 auto;
     }
     .main div.last img{
         width: 100%
+    }
+    .marketing .main div.alternate {
+        flex-direction: column;
     }
 }
 /* for odd things even smaller than an iphone 5/SE ===========================*/
