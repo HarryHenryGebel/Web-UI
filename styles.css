@@ -168,7 +168,7 @@ footer a {
     flex-direction: column;
 }
 
-.marketing .main div {
+.marketing .main .article {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -243,12 +243,12 @@ CSS Breakpoints
     .hero {
         flex-direction: column;
     }
-    .hero h1 {/*changed*/
+    .hero h1 {/*unchanged, to delete later*/
         font-size: 6rem;
         /* font-weight: bold; */
         margin: 0 auto 0 0;
     }
-    .hero h2 {/*changed*/
+    .hero h2 {
         font-size: 2.5rem;
         /* padding: 2%; */
         margin: 0 0 0 auto;
@@ -261,7 +261,7 @@ CSS Breakpoints
         font-size: 6rem;
         /* font-weight: bold; */
     }
-    .about .hero h1 { /*changed*/
+    .about .hero h1 {
         width: 96%;
         font-size: 2rem;
         /* padding: 2%; */
@@ -287,6 +287,23 @@ CSS Breakpoints
     .main div.last img {
         width:45%;
         /* margin: 0 auto; */
+    }
+    .marketing .main .article {
+        flex-direction: column;
+    }
+    .marketing .main div.alternate {
+        align-items: center;
+    }
+    .marketing .main img {
+        width: 30%;
+    }
+    .marketing .main h2 {
+        width: 100%;
+        margin: 0;
+    }
+    .marketing .main .alternate h2 {
+        width: 30%;
+        margin: 0;
     }
 
 
