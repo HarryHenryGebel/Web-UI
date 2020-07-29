@@ -328,17 +328,22 @@ CSS Breakpoints
         text-align: right;
         margin: 0 3%;
     }
-    .hero h1, .marketing .hero h2 {
+    .hero h1,
+    .marketing .hero h2,
+    .about .hero h2 {
         font-size: 4.5rem;
     }
-    .hero h2, .marketing .hero h1 {
+    .hero h2,
+    .marketing .hero h1,
+    .about .hero h1 {
         font-size: 2rem;
     }
 /* Main */
     .main div, .main div.last {
         width: 92%;
     }
-    .marketing .main .article {
+    .marketing .main .article,
+    .about .main {
         width: 92%;
         margin: 5% auto 0 auto;
     }
