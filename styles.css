@@ -64,7 +64,7 @@ header a {
 header a:hover{ /*all the classy bits here*/
 
 }
-/* Nav */
+/* Nav */ /*For the love of nav bars everywhere, please make me purdy. oh please, oh please, oh please, mister web developer */
 
 /* .container */
 
@@ -80,12 +80,16 @@ header a:hover{ /*all the classy bits here*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 6% 0;
+    align-items: baseline;
+    padding: 6% 2%;
+}
+
+.hero h1 {
     font-size: 10rem;
     font-weight: bold;
 }
 
-.hero h1 {
+.hero h2 {
     font-size: 3rem;
     padding: 2%;
 }
@@ -110,12 +114,35 @@ header a:hover{ /*all the classy bits here*/
     /* text-align: left; */
 }
 
-/* Index */
 
-/* Marketing */
+/* Footer */
+
+footer {
+    background-color: #16302B;
+    color: #ffffff;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer a {
+    color: #ffffff;
+}
+
+/* Marketing ===============================*/
 
 .marketing .hero {
     padding: 2%;
+}
+
+.marketing .hero h1 {
+    font-size: 3rem;
+    padding: 2%;
+}
+
+.marketing .hero h2 {
+    font-size: 10rem;
+    font-weight: bold;
 }
 
 .marketing .main {
@@ -138,14 +165,23 @@ header a:hover{ /*all the classy bits here*/
     width: 55%;
     margin: 0 1%;
 }
-/* About */
+/* About ====================================*/
 
 .about .hero {
     padding: 2%;
 }
 
-.about .hero aside { /*fix me*/
-    width: 150%;
+.about .hero h1 {
+    width: 40%;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+.about .hero h2 {
+    margin: 0;
+    padding: 0 auto;
+    font-size: 10rem;
+    font-weight: bold;
 }
 
 .about .main {
@@ -160,19 +196,6 @@ header a:hover{ /*all the classy bits here*/
     width: 30%;
 }
 
-/* Footer */
-
-footer {
-    background-color: #16302B;
-    color: #ffffff;
-    padding: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-footer a {
-    color: #ffffff;
-}
 
 /* ======================================
 CSS Breakpoints
@@ -185,6 +208,14 @@ CSS Breakpoints
 
 /* for tablets ==========================*/
 @media (max-width: 1200px) {
+/* header */
+    header div {
+        width: 30%;
+    }
+/* Container */
+    .container {
+        width: 90%;
+    }
 /* Nav */
     .hideable {
         display: none;
@@ -193,7 +224,36 @@ CSS Breakpoints
     .hero {
         flex-direction: column;
     }
-
+    .hero h1 {/*changed*/
+        font-size: 6rem;
+        /* font-weight: bold; */
+        margin: 0 auto 0 0;
+    }
+    .hero h2 {/*changed*/
+        font-size: 2.5rem;
+        /* padding: 2%; */
+        margin: 0 0 0 auto;
+    }
+    .marketing .hero h1 {
+        font-size: 2.5rem;
+        /* padding: 2%; */
+    }
+    .marketing .hero h2 {
+        font-size: 6rem;
+        /* font-weight: bold; */
+    }
+    .about .hero h1 { /*changed*/
+        width: 96%;
+        font-size: 2rem;
+        /* padding: 2%; */
+    }
+    .about .hero h2 {
+        /* margin: 0; */
+        /* padding: 0 auto; */
+        font-size: 5rem;
+        /* font-weight: bold; */
+        margin: 0 0 0 auto;
+    }
 }
 
 /* For phones ===========================*/
