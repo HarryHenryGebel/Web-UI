@@ -39,7 +39,7 @@ body {
 footer {
     flex-shrink: 0;
 }
-/* Button Reset & Styling*/
+/* Button Reset, Stylings & a's*/
 button {
     display: inline-block;
     border: none;
@@ -76,7 +76,15 @@ button:focus {
 button:active {
     transform: scale(0.99);
 }
+.main a {
+    background: #dbf9f0;
+    border-radius: 15px;
+    padding: 0 10px;
+    color: #16302b;
+}
+.main a:hover{ /*all the classy bits here*/
 
+}
 
 /* Header / NavBar */
 header {
@@ -106,14 +114,11 @@ header nav {
 
 header a {
     color: #ffffff;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem;
     font-family: 'BioRhyme', serif;
-    letter-spacing: 3px;
+    letter-spacing: 3px; */
 }
 
-header a:hover{ /*all the classy bits here*/
-
-}
 
 header div .title {
     /* font-size: 2.5rem; */
@@ -182,8 +187,11 @@ footer {
     flex-direction: row;
     justify-content: center;
 }
-footer button {
-    font-size: 1.5rem;
+footer a {
+    color: #ffffff;
+    /* font-size: 1.5rem;
+    font-family: 'BioRhyme', serif;
+    letter-spacing: 3px; */
 }
 
 /* Marketing ===============================*/
