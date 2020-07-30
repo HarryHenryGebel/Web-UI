@@ -12,7 +12,7 @@ body {
 }
 
 * {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,7 +44,7 @@ footer {
     flex-shrink: 0;
 }
 
-/* Header */
+/* Header / NavBar */
 header {
     background-color: #16302B;
     color: #ffffff;
@@ -71,8 +71,13 @@ header div.login {
 
 header nav {
     text-align: center;
+    width: 30%;
     display: flex;
     justify-content: space-around;
+}
+header nav a {
+    /* margin: auto 50px; */
+    /* padding: auto 90px; */
 }
 
 header a {
@@ -215,6 +220,25 @@ footer a {
     width: 30%;
 }
 
+.about .main img #two {
+    /* margin-left: 20vw; */
+}
+
+.about .main img #three {
+
+}
+
+.about .main img #four {
+
+}
+
+.about .main img #five {
+
+}
+
+.about h3 {
+    font-size: 1.5rem;
+}
 
 /* ======================================
 CSS Breakpoints
@@ -233,13 +257,12 @@ CSS Breakpoints
     header div {
         width: 30%;
     }
+    .hideable {
+        display: none;
+    }
 /* Container */
     .container {
         width: 90%;
-    }
-/* Nav */
-    .hideable {
-        display: none;
     }
 /* Hero */
     .hero {
@@ -312,8 +335,11 @@ CSS Breakpoints
         display: flex;
         flex-direction: column;
     }
+    header nav {
+        width: 65%;
+    }
     header a {
-        padding: 5% 2%;
+        padding: auto 2%;
         /* margin: 0; */
     }
 /* Container */
