@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 /* Flex magic to get footer to not rise up & go exploring */
 html, body {
@@ -52,7 +53,7 @@ button {
     font-size: 1.5rem;
     font-family: 'BioRhyme', serif;
     letter-spacing: 3px;
-    cursor: pointer;
+    cursor: default;
     text-align: center;
     transition: background 250ms ease-in-out,
                 transform 150ms ease;
@@ -82,8 +83,8 @@ button:active {
     padding: 0 10px;
     color: #16302b;
 }
-.main a:hover{ /*all the classy bits here*/
-
+a:hover{ /*all the classy bits here*/
+    cursor: default;
 }
 
 /* Header / NavBar */
@@ -251,12 +252,24 @@ footer a {
 
 .about .main {
     flex-direction: column;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
 }
 
 .about .main div {
     width: 100%;
 }
 
+.about .main a {
+    background: #ffffff;
+    transition-timing-function: ease-in-out;
+    /* transition: background 250ms ease-in-out, */
+    /* transform 150ms ease; */
+}
+
+.about .main a:hover {
+    background-image: linear-gradient(to bottom right, #f46036, #ffffff);
+}
 .about .main img {
     width: 30%;
 }
