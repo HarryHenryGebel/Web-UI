@@ -90,7 +90,6 @@ a:hover{ /*all the classy bits here*/
 /* Header / NavBar */
 header {
     background-color: #16302B;
-    /* color: #ffffff; */
     padding: 1%;
     display: flex;
     flex-direction: row;
@@ -115,13 +114,10 @@ header nav {
 
 header a {
     color: #ffffff;
-    /* font-size: 1.5rem;
-    font-family: 'BioRhyme', serif;
-    letter-spacing: 3px; */
 }
 
 
-header div .title {
+header div .title { /*ToDo: make the logo purdy*/
     /* font-size: 2.5rem; */
     /* color: red; */
     /* text-shadow: .5px .5px #DBF9F0; */
@@ -164,25 +160,19 @@ header div .title {
 }
 
 .main div {
-    /* text-align: center; */
     width: 30%;
     margin-top: 2%;
 }
 
 .main img {
     width: 100%;
-    /* margin: 0 auto; */
 }
 
-.main p {
-    /* text-align: left; */
-}
 
 /* Footer */
 
 footer {
     background-color: #16302B;
-    /* color: #ffffff; */
     padding: 1%;
     display: flex;
     flex-direction: row;
@@ -190,9 +180,6 @@ footer {
 }
 footer a {
     color: #ffffff;
-    /* font-size: 1.5rem;
-    font-family: 'BioRhyme', serif;
-    letter-spacing: 3px; */
 }
 
 /* Marketing ===============================*/
@@ -220,7 +207,7 @@ footer a {
     display: flex;
     flex-direction: row;
 }
-.marketing .main div.alternate { /*Reverse this row: image last.*/
+.marketing .main div.alternate {
     flex-direction: row-reverse;
 }
 .marketing .main img {
@@ -252,7 +239,7 @@ footer a {
 
 .about .main {
     flex-direction: column;
-    transition: background 250ms ease-in-out,
+    transition: background-image 250ms ease-in-out,
     transform 150ms ease;
 }
 
@@ -260,7 +247,7 @@ footer a {
     width: 100%;
 }
 
-.about .main a {
+.about .main a { /*Why can I not get this animation to work?! */
     background: #ffffff;
     transition-timing-function: ease-in-out;
     /* transition: background 250ms ease-in-out, */
@@ -276,6 +263,7 @@ footer a {
 
 .about .main img #two {
     /* margin-left: 20vw; */
+    /* Eventually create cascading images through here? */
 }
 
 .about .main img #three {
@@ -374,8 +362,6 @@ CSS Breakpoints
         width: 30%;
         margin: 0;
     }
-
-
 }
 
 /* for cellphones ===========================*/
@@ -394,7 +380,6 @@ CSS Breakpoints
     }
     header a {
         padding: auto 2%;
-        /* margin: 0; */
     }
 /* Container */
     .container {
