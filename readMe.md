@@ -6,7 +6,7 @@ _Paused to allow breathing room untill such a time as one of us decides to pick 
 ## A Houseplant Watering Scheduler
 
 Live at: [https://water-me.netlify.app/pip](https://water-me.netlify.app/)
-A Lambda School Build Week project to test our skills and save the world, one succulent at a time. Everything accomplished in 4 days, with potential polish and refactoring in the future. Some features still theoretical, but enough accomplished to fulfill all our MVP's & many stretch goals. The aim of the website is to begin creating a product that can allow users to create an account, and input all their houseplants. Each houseplant will have it's own watering schedule that can eventually be updated every watering until the user has found the perfect schedule for their home. My task was to create the Landing Page, Marketing Page & About Page, proving my HTML & CSS chops. All the other fun juicy bits of frontend & backend went to the rest of my brilliant team slaving away.
+A Lambda School student project to test our skills and save the world, one succulent at a time. Everything accomplished in 4 days, with potential polish and refactoring in the future. Maybe. Some features still theoretical, but enough accomplished to fulfill all our MVP's & many stretch goals. The aim of the website is to begin creating a product that can allow users to create an account, and input all their houseplants. Each houseplant will have it's own watering schedule that can eventually be updated every watering until the user has found the perfect schedule for their home. My task was to create the Landing Page, Marketing Page & About Page, proving my HTML & CSS chops. All the other fun juicy bits of frontend & backend went to the rest of my brilliant team slaving away.
 
 
 ## Installation
@@ -45,11 +45,14 @@ Costs a cookie. Message me to arrange shipping and we'll work out the details.
  - Front End Framework Extraordinaire: Lauren Emick
  - Front End Wizard: Harry Gebel
  - Front End Zauberin: Ava Wingfield
- - UI Munchkin: Josh Glantz
+ - UI Munchkin: Josh Glantz (This is me, fyi)
 
 ## License
 I'm sure this is a thing. Let me get back to ya.
 
 ### Personal Notes
-Extra img's in assets to create more content.
+Extra img's in assets to create more content in the future.
 07.30.20 - First Lambda School Build Week after a whopping 3 weeks on instruction on HTML/CSS/Javascript. Zero prior coding or web design experience. Damn, Lambda is good.
+Wireframe Created: [https://wireframe.cc/GJuI3T] (https://wireframe.cc/GJuI3T)
+Wireframe Ambition (what I hope to be able to do one day): [here] (https://www.figma.com/file/jFarvmS1MN1wfgoAnZAawa/Plant-Parenthood?node-id=169%3A720)
+Notion Notebook: [here] (https://www.notion.so/e8294ece45574c1ea5601da104d88595?v=92c3cc4c29de42b392d07c9ceb197555)
